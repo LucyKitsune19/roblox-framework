@@ -29,7 +29,8 @@ This command writes **no code**. It ends with a plan the user approves, saved wh
    - who can trigger it
    - what happens on leave or rejoin
 5. Write the plan to `plans/<SystemName>.md`, using the shape below. Show the user the same plan, and ask whether to build it as written or change it.
-6. When the user wants changes, update the file and show it again. When they approve it, set its `Status` to `Approved` and tell them to run `/roblox-framework:new-system <SystemName>`.
+6. Tell them `/roblox-framework:cold-read <SystemName>` has a fresh agent read the plan, say back what it understood, and ask about every gap. This is worth doing before approving anything bigger than a small change.
+7. When the user wants changes, update the file and show it again. When they approve it, set its `Status` to `Approved` and tell them to run `/roblox-framework:new-system <SystemName>`.
 
 ## Plan shape
 

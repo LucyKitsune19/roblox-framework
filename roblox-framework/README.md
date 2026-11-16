@@ -6,6 +6,7 @@ A Roblox Luau framework that an agent can pick up in any project and follow stri
 |---|---|
 | `/roblox-framework:new-game` | sets up the framework in a folder: loaders, Services/Controllers, DataService/DataController (ProfileStore + Replica), Network, unit tests, Rojo project, the guide, CLAUDE.md and AGENTS.md |
 | `/roblox-framework:plan <Name>: <what it does>` | plans a system before any code: pieces, remotes, data keys, config, flow and tests. It asks what's unclear, then saves `plans/<Name>.md` for you to approve |
+| `/roblox-framework:cold-read [Name]` | a fresh agent with no context reads the plan, tells you what it would build, and asks you every gap it finds; your answers go into the plan |
 | `/roblox-framework:new-system <Name>` | adds a system the framework's way (service, controller, Ui, children, remotes, data, tests) |
 | `/roblox-framework:check` | runs the style checker and fixes what it finds |
 | the `rules` skill | loads on its own for any Luau work in a framework project |
