@@ -1,0 +1,10 @@
+{
+	"name": "roblox-framework",
+	"version": "1.1.0",
+	"description": "Roblox Luau starter pack: two loaders, Services/Controllers, DataService/DataController on ProfileStore + Replica, Network, unit tests, and a style checker that runs after every edit so agents follow the rules.",
+	"author": {
+		"name": "LucieYaK"
+	},
+	"license": "MIT",
+	"keywords": ["roblox", "luau", "framework", "profilestore", "replica", "style"]
+}

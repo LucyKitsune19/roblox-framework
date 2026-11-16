@@ -1,0 +1,10 @@
+{
+	"check": [
+		"src/ServerScriptService",
+		"src/ReplicatedStorage/Controllers",
+		"src/ReplicatedStorage/SharedModules",
+		"src/ServerStorage/Tests",
+		"src/StarterPlayer"
+	],
+	"ignore": ["SharedPackages", "ServerPackages", "Packages"]
+}

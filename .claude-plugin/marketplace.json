@@ -1,0 +1,14 @@
+{
+	"name": "roblox-starter",
+	"owner": {
+		"name": "LucieYaK"
+	},
+	"description": "Roblox Luau starter pack for Claude Code",
+	"plugins": [
+		{
+			"name": "roblox-framework",
+			"source": "./roblox-framework",
+			"description": "Roblox Luau starter pack: loaders, Services/Controllers, player data, Network, tests, and an enforced style checker"
+		}
+	]
+}

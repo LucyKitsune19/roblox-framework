@@ -1,0 +1,17 @@
+{
+	"description": "Runs the framework style checker after every Luau edit in a project with framework.config.json, and hands any finding back to Claude to fix",
+	"hooks": {
+		"PostToolUse": [
+			{
+				"matcher": "Write|Edit|MultiEdit",
+				"hooks": [
+					{
+						"type": "command",
+						"command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/check-luau.mjs\" --hook",
+						"timeout": 30
+					}
+				]
+			}
+		]
+	}
+}
